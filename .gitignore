@@ -1,0 +1,4 @@
+*.class
+*.pb
+vcs.xml;
+uiDesugner.xml;
