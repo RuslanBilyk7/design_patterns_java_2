@@ -5,7 +5,7 @@ public class Program {
 	public static void main(String[] args) {
 		DeveloperFactory developerFactory = createDeveloperFactoryBySpecialty("php");
 		Developer developer = developerFactory.createDeveloper();
-		developer.writeJavaCode();
+		developer.writeCode();
 	}
 
 	static DeveloperFactory createDeveloperFactoryBySpecialty(final String specialty) {
